@@ -1,0 +1,23 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/main.js",
+  "fragments": [
+    "src/lazy-element.js"
+  ],
+  "sources": [
+   "src/*",
+   "manifest/**",
+   "package.json"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "node_modules/@webcomponents/webcomponentsjs/**"
+  ],
+  "builds": [
+    { 
+      "preset": "es6-unbundled"
+    }
+  ],
+  "moduleResolution": "node",
+  "npm": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "yeet_visualizer",
+  "version": "3.0.0",
+  "main": "src/start-polymer3.js",
+  "repository": "https://github.com/PolymerLabs/start-polymer3.git",
+  "author": "The Polymer Project Authors",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@material/card": "^0.43.0",
+    "@material/image-list": "^0.43.0",
+    "@polymer/lit-element": "^0.7.1",
+    "@webcomponents/webcomponentsjs": "^2.2.6"
+  }
+}
