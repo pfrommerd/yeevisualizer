@@ -11,6 +11,10 @@
     "@material/card": "^0.43.0",
     "@material/image-list": "^0.43.0",
     "@polymer/lit-element": "^0.7.1",
-    "@webcomponents/webcomponentsjs": "^2.2.6"
+    "@webcomponents/webcomponentsjs": "^2.2.6",
+    "polymer-cli": "^1.9.7"
+  },
+  "scripts": {
+    "start": "./node_modules/polymer-cli/bin/polymer.js serve --module-resolution=node --port $PORT"
   }
 }
