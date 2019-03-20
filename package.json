@@ -15,6 +15,6 @@
     "polymer-cli": "^1.9.7"
   },
   "scripts": {
-    "start": "./node_modules/polymer-cli/bin/polymer.js serve --module-resolution=node --port $PORT --hostname yeevaluations.herokuapp.com"
+    "start": "./node_modules/polymer-cli/bin/polymer.js serve --module-resolution=node --port $PORT --hostname 0.0.0.0"
   }
 }
